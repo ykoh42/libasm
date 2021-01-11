@@ -24,6 +24,20 @@ make
 make test
 ```
 
+## Tester
+
+- **[libasm_test](https://github.com/cacharle/libasm_test)** 
+
+    ```shell
+    git clone https://github.com/cacharle/libasm_test.git
+    ```
+
+- **[Libasm_Unit_Tests](https://github.com/valentinllpz/Libasm_Unit_Tests)**
+
+    ```shell
+    git clone https://github.com/valentinllpz/Libasm_Unit_Tests.git
+    ```
+
 ## Rules
 
 * You must write 64 bits ASM. Beware of the "calling convention".
