@@ -17,6 +17,7 @@ section	.text
 
 _ft_strcmp:
 	mov	rax, 0
+	mov	rdx, 0
 
 while:
 	mov	al, byte [rdi]
