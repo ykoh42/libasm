@@ -30,8 +30,8 @@ fclean		:	clean
 
 re		:	fclean all
 
-test		:	main.c
-			@$(CC) $(CFLAGS) $(NAME) $^
+test		:	re
+			@$(CC) $(CFLAGS) $(NAME) main.c
 			@clear
 			@./a.out
 			@rm -rf a.out*
